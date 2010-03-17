@@ -1,7 +1,6 @@
 #!/usr/bin/perl -w
 
 use Test::More 'no_plan';
-use File::Spec::Functions qw(updir);
 use lib::abs;
 
 my %tests = (
