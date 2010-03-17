@@ -1,3 +1,4 @@
+.gitignore
 Changes
 ignore.txt
 inc/Module/AutoInstall.pm
@@ -19,5 +20,7 @@ META.yml
 README
 t/00-load.t
 t/boilerplate.t
+t/data/test.rar
+t/extract.t
 t/pod-coverage.t
 t/pod.t

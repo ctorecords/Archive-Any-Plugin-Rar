@@ -30,8 +30,9 @@ sub can_handle {
 
 sub files {
     my( $self, $file ) = @_;
-    my $t = Archive::Rar->new( $file );
-    return $t->List( );
+    my $t = Archive::Rar->new( -archive => $file );
+    $t->List();
+    map { $_->{name} } @{$t->{list}};
 }
 
 sub extract {
