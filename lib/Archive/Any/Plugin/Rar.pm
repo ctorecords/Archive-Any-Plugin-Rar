@@ -25,6 +25,7 @@ Do not use this module directly.  Instead, use Archive::Any.
 sub can_handle {
     return(
            'application/x-rar',
+           'application/x-rar-compressed',
           );
 }
 
