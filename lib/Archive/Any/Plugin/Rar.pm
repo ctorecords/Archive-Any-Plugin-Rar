@@ -60,6 +60,10 @@ Dmitriy V. Simonov, C<< <dsimonov at gmail.com> >>
 
 Thanks to Clint Moore for L<Archive::Any> 
 
+Thanks to d_ion@mail.ru for minor fix
+
+Thanks to ksuri@cpan.org for major fix
+
 =head1 COPYRIGHT & LICENSE
 
 Copyright 2010 Dmitriy V. Simonov.
