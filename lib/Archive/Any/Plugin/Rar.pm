@@ -13,7 +13,7 @@ Archive::Any::Plugin::Rar - Archive::Any wrapper around Archive::Rar
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 
 =head1 SYNOPSIS
@@ -39,7 +39,7 @@ sub files {
 sub extract {
     my ( $self, $file ) = @_;
 
-    my $t = Archive::Rar->new( -archive => $file );
+    my $t = Archive::Rar->new( -archive => $file, -quiet   => 'True' );
     return $t->Extract;
 }
 

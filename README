@@ -12,6 +12,8 @@ AUTHOR
 
 ACKNOWLEDGEMENTS
     Thanks to Clint Moore for Archive::Any
+    Thanks to d_ion@mail.ru for minor fix
+    Thanks to ksuri@cpan.org for major fix
 
 COPYRIGHT & LICENSE
     Copyright 2010 Dmitriy V. Simonov.
